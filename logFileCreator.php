@@ -5,7 +5,5 @@
 */
 
 public function log($message) {
-
     return file_put_contents('./Customlog.txt', $message."\r\n", FILE_APPEND);
-    
 }
